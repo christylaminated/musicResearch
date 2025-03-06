@@ -60,7 +60,7 @@ nav {
 }
 
 
-.kendrick {
+.twopianos {
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -68,50 +68,45 @@ nav {
     padding-right: 10px;
 }
 
-.kendrick h2{
-    padding-top: 100px;
+.twopianos h1{
+    padding-top: 150px;
     padding-left: 100px;
     padding-right: 100px;
     flex:1;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', serif;
 }
-.kendrick iframe{
-    width: 100%; /* Allows it to scale within its container */
-    max-width: 560px; /* Ensures it doesn't get too large */
-    height: 315px;
+.twopianos iframe{
+    max-width: 80%;
     padding-top: 100px;
 }
 
-.Lofi {
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding-right: 10px;
+
+
+
+
+.picture2{
+    display:flex;
 }
 
-.Lofi h2{
-    padding-top: 100px;
+.picture2 h1{
+    padding-top: 300px;
     padding-left: 100px;
     padding-right: 100px;
     flex:1;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', serif;
 }
-.Lofi iframe{
-    width: 100%; /* Allows it to scale within its container */
-    max-width: 560px; /* Ensures it doesn't get too large */
-    height: 315px;
+
+.picture2 iframe{
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 100px;
+    max-width: 80%;
 }
-
-
 .disclaimer h1{
-    padding-top: 100px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     flex:1;
     font-size: 20px;
     font-family: 'Times New Roman', serif;

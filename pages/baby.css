@@ -50,6 +50,16 @@ nav {
     justify-content: center;
 }
 
+.intro h1 {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 90px;
+    flex:1;
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    padding-bottom: 100px;
+}
+
 .hero h1 {
     font-size: 3em;
     font-weight: bold;
@@ -60,7 +70,7 @@ nav {
 }
 
 
-.kendrick {
+.pictures {
     padding-top: 20px;
     display: flex;
     justify-content: center;
@@ -68,50 +78,50 @@ nav {
     padding-right: 10px;
 }
 
-.kendrick h2{
-    padding-top: 100px;
+.pictures h1{
+    padding-top: 150px;
     padding-left: 100px;
     padding-right: 100px;
     flex:1;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Times New Roman', serif;
 }
-.kendrick iframe{
-    width: 100%; /* Allows it to scale within its container */
-    max-width: 560px; /* Ensures it doesn't get too large */
-    height: 315px;
-    padding-top: 100px;
+.pictures img{
+    max-width: 80%;
 }
 
-.Lofi {
+.picture2{
     padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 10px;
     padding-right: 10px;
+    background-color: white;
 }
 
-.Lofi h2{
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    flex:1;
-    font-size: 18px;
+.picture2 h1{
+    flex: 1; 
+    padding-top: 50px; /* Reduce padding */
+    padding-left: 20px; /* Reduce left padding */
+    /*padding-right: 20px; /* Reduce right padding */
+    flex: 1; /* Allows text to take up space */
+    font-size: 20px;
     font-family: 'Times New Roman', serif;
-}
-.Lofi iframe{
-    width: 100%; /* Allows it to scale within its container */
-    max-width: 560px; /* Ensures it doesn't get too large */
-    height: 315px;
-    padding-top: 100px;
-    padding-left: 50px;
+    text-align: left; /* Ensures text is aligned properly */
+    background-color: white;
+
 }
 
-
+.picture2 img{
+    max-width: 400px; /* Ensures all images stay the same width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: contain; /* Ensures images fit inside their container */
+    padding-right: 20px;
+}
 .disclaimer h1{
-    padding-top: 100px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
     flex:1;
     font-size: 20px;
     font-family: 'Times New Roman', serif;
